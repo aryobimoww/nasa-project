@@ -1,11 +1,11 @@
 name:  NASA project CI
 on: 
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request: 
-    branches: ["main"] 
+    branches: [main] 
 jobs:
-  biuld: 
+  build: 
     run-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
